@@ -1,5 +1,3 @@
-name: Deploy API Aula Pronta
-
 on: 
   push: 
     branches:
@@ -17,9 +15,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-          server: digitalbos.com.br
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          server-dir: ${{ secrets.SERVER_AULAPRONTA }}
-
+         server: digitalbos.com.br
+         username: ${{ secrets.USERNAME }}
+         password: ${{ secrets.PASSWORD }}
+         server-dir: ${{ secrets.SERVER_AULAPRONTA }}
     
