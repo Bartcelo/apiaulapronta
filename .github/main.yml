@@ -19,4 +19,5 @@ jobs:
          username: ${{ secrets.USERNAME }}
          password: ${{ secrets.PASSWORD }}
          server-dir: ${{ secrets.SERVER_AULAPRONTA }}
+         log-level: verbose
     
