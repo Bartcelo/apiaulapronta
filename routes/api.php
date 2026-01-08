@@ -10,3 +10,7 @@ Route::get('/user', function (Request $request) {
 Route::get('/' , function(){
     return "Esta funcionando";
 });
+
+Route::post('/marcelo' , function(){
+    return "Esta funcionando post";
+});
